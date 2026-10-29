@@ -1,22 +1,25 @@
-🎧 Tavora — Web App per la gestione delle serate in discoteca
+# 🎧 Tavora — Web App per la gestione delle serate in discoteca
+
+La tua lista, il tuo network, la tua notte. 
+
 Tavora è una web application progettata per semplificare la gestione e l'organizzazione delle serate in discoteca, offrendo ai PR, ai Capolista e agli Amministratori un unico ambiente in cui gestire prenotazioni, clienti, tavoli, liste, eventi, conteggi e incassi.
-📑 Indice
-1. Panoramica del progetto
-2. Problema e obiettivi
-3. Target e attori
-4. Competitor
-5. Tecnologie e strumenti
-6. Funzionalità dell'applicazione
-7. Requisiti funzionali e User Story
-8. Requisiti non funzionali
-9. Requisiti di dominio
-10. Attori e ruoli
-11. Matrice dei permessi
-12. Regole di dominio principali
-13. Diagrammi UML
-14. Sicurezza e protezione dei dati
-15. Evoluzione del progetto
-🎯 1. Panoramica del progetto
+## 📑 Indice
+* 1. Panoramica del progetto
+* 2. Problema e obiettivi
+* 3. Target e attori
+* 4. Competitor
+* 5. Tecnologie e strumenti
+* 6. Funzionalità dell'applicazione
+* 7. Requisiti funzionali e User Story
+* 8. Requisiti non funzionali
+* 9. Requisiti di dominio
+* 10. Attori e ruoli
+* 11. Matrice dei permessi
+* 12. Regole di dominio principali
+* 13. Diagrammi UML
+* 14. Sicurezza e protezione dei dati
+* 15. Evoluzione del progetto
+## 🎯 1. Panoramica del progetto
 
 Tavora nasce con l'obiettivo di digitalizzare e centralizzare le attività organizzative dei PR che lavorano nel settore nightlife.
 
@@ -24,41 +27,41 @@ L'applicazione permette di raccogliere in un unico sistema tutte le informazioni
 
 Il sistema prevede tre ruoli principali:
 
-PR: gestisce i propri clienti e le prenotazioni relative alle discoteche e alle liste a cui è associato.
-Capolista: coordina i PR della propria lista, ne monitora le attività e consulta i risultati complessivi del gruppo.
-Amministratore: gestisce gli utenti, i permessi, le discoteche, le liste, i tavoli, gli eventi e la reportistica.
+* PR: gestisce i propri clienti e le prenotazioni relative alle discoteche e alle liste a cui è associato.
+* Capolista: coordina i PR della propria lista, ne monitora le attività e consulta i risultati complessivi del gruppo.
+* Amministratore: gestisce gli utenti, i permessi, le discoteche, le liste, i tavoli, gli eventi e la reportistica.
 
 La piattaforma è concepita per essere utilizzabile sia nella fase di preparazione della serata sia durante lo svolgimento dell'evento.
 
-💡 2. Problema e obiettivi
-Il problema
+## 💡 2. Problema e obiettivi
+### Il problema
 
 L'organizzazione delle serate in discoteca si basa spesso su strumenti separati, come chat, fogli di calcolo e applicazioni di messaggistica. Questa frammentazione rende difficile mantenere le informazioni aggiornate e condividere correttamente i dati tra i membri dello staff.
 
-Le principali criticità sono:
+### Le principali criticità sono:
 
-Dispersione delle informazioni tra strumenti differenti.
-Difficoltà nel monitorare prenotazioni e disponibilità dei tavoli.
-Possibilità di perdere dati relativi ai clienti.
-Difficoltà nel consultare lo storico delle prenotazioni.
-Gestione poco centralizzata di prezzi e note.
-Scarsa visibilità sui conteggi e sugli incassi.
-Difficoltà nel coordinamento tra PR e Capolista.
-Assenza di un registro centralizzato delle modifiche.
-Gli obiettivi
+* Dispersione delle informazioni tra strumenti differenti.
+* Difficoltà nel monitorare prenotazioni e disponibilità dei tavoli.
+* Possibilità di perdere dati relativi ai clienti.
+* Difficoltà nel consultare lo storico delle prenotazioni.
+* Gestione poco centralizzata di prezzi e note.
+* Scarsa visibilità sui conteggi e sugli incassi.
+* Difficoltà nel coordinamento tra PR e Capolista.
+* Assenza di un registro centralizzato delle modifiche.
+### Gli obiettivi
 
 Tavora si propone di:
 
-Centralizzare le informazioni in un'unica piattaforma.
-Semplificare la gestione delle prenotazioni.
-Rendere più rapida la ricerca dei clienti.
-Organizzare le liste e le relative gerarchie.
-Migliorare il coordinamento tra i membri dello staff.
-Monitorare i conteggi e gli incassi per periodo.
-Gestire gli omaggi sulla base di soglie configurabili.
-Garantire un accesso alle funzionalità basato sui ruoli.
-Migliorare la tracciabilità delle operazioni.
-👥 3. Target e attori
+* Centralizzare le informazioni in un'unica piattaforma.
+* Semplificare la gestione delle prenotazioni.
+* Rendere più rapida la ricerca dei clienti.
+* Organizzare le liste e le relative gerarchie.
+* Migliorare il coordinamento tra i membri dello staff.
+* Monitorare i conteggi e gli incassi per periodo.
+* Gestire gli omaggi sulla base di soglie configurabili.
+* Garantire un accesso alle funzionalità basato sui ruoli.
+* Migliorare la tracciabilità delle operazioni.
+## 👥 3. Target e attori
 
 Tavora si rivolge ai professionisti e ai collaboratori del settore nightlife che necessitano di uno strumento pratico per gestire le proprie attività.
 
@@ -70,7 +73,7 @@ Discoteca	Rappresenta il locale a cui sono associati eventi, tavoli, liste e reg
 
 La discoteca è un'entità organizzativa del sistema, non necessariamente un utente autenticato.
 
-🏆 4. Competitor
+## 🏆 4. Competitor
 
 Le principali alternative considerate per Tavora sono:
 
@@ -82,98 +85,98 @@ WhatsApp	Comunicazione e coordinamento tra collaboratori	Tavora organizza le inf
 
 Questi strumenti possono risolvere singoli aspetti dell'organizzazione, mentre Tavora punta a riunire in un'unica piattaforma le attività centrali del lavoro dei PR.
 
-🛠️ 5. Tecnologie e strumenti
+## 🛠️ 5. Tecnologie e strumenti
 
 Gli strumenti indicati per il progetto sono:
 
-GitHub: repository del progetto, versionamento del codice e collaborazione.
-yUML: creazione e rappresentazione dei diagrammi UML.
+* GitHub: repository del progetto, versionamento del codice e collaborazione.
+* yUML: creazione e rappresentazione dei diagrammi UML.
 
 L'architettura applicativa, il framework frontend, il backend e il sistema di persistenza dei dati dovranno essere documentati quando le relative scelte tecnologiche saranno definite.
 
-⚙️ 6. Funzionalità dell'applicazione
+## ⚙️ 6. Funzionalità dell'applicazione
 
 Le funzionalità sono suddivise in undici aree principali.
 
-6.1 Autenticazione e gestione dell'account
-Registrazione di un utente.
-Accesso tramite login e verifica delle credenziali.
-Recupero della password.
-Visualizzazione e modifica del profilo personale.
-Associazione di ruoli e permessi agli account.
-Visualizzazione degli utenti registrati.
-Disattivazione degli account utente.
-6.2 Gestione delle discoteche
-Visualizzazione e selezione delle discoteche disponibili.
-Creazione e modifica delle informazioni di una discoteca.
-Gestione amministrativa dei locali.
-Associazione delle liste alle discoteche.
-Possibilità per un PR di lavorare per più discoteche, quando abilitata.
-6.3 Gestione delle liste
-Selezione della lista di lavoro.
-Creazione e gestione delle liste.
-Associazione delle liste alle discoteche.
-Modifica delle informazioni della lista.
-Visualizzazione dell'albero gerarchico e dei membri.
-Assegnazione e rimozione dei PR.
-Consultazione dei PR appartenenti alla lista.
-Inserimento e consultazione delle note della lista.
-6.4 Gestione delle prenotazioni
-Creazione, modifica, visualizzazione ed eliminazione delle prenotazioni.
-Associazione delle prenotazioni ai clienti, ai tavoli e agli eventi pertinenti.
-Modifica dello stato della prenotazione.
-Inserimento e consultazione delle note.
-Modifica del prezzo associato al pagante.
-Gestione delle prenotazioni della propria lista da parte del Capolista.
-6.5 Gestione dei clienti
-Visualizzazione della lista dei clienti.
-Ricerca rapida dei clienti.
-Consultazione della scheda cliente.
-Visualizzazione dello storico delle attività.
-Consultazione dello storico dei tavoli prenotati.
-Inserimento e visualizzazione delle note.
-Registrazione del numero e dei nomi delle persone portate da ciascun cliente.
-Consultazione dei clienti associati alla propria lista.
-6.6 Gestione dei tavoli
-Creazione e configurazione dei tavoli.
-Visualizzazione delle informazioni dei tavoli.
-Modifica dei dati e delle caratteristiche.
-Associazione dei tavoli alle discoteche.
-Gestione delle informazioni necessarie alla prenotazione.
-6.7 Programmazione ed eventi
-Visualizzazione della programmazione settimanale.
-Consultazione degli eventi programmati.
-Creazione di nuovi eventi.
-Modifica delle informazioni degli eventi.
-Associazione degli eventi alle rispettive discoteche.
-6.8 Gestione degli omaggi
-Consultazione degli omaggi disponibili.
-Configurazione delle soglie per ogni discoteca.
-Definizione delle condizioni per il riconoscimento dei benefici.
-Sblocco degli omaggi al raggiungimento delle soglie previste.
-Visualizzazione dei benefici ottenuti dai PR.
-6.9 Conteggi e statistiche
-Conteggio dei clienti portati da ogni PR.
-Consultazione dei conteggi per periodo.
-Visualizzazione dei conteggi complessivi della propria lista.
-Monitoraggio dell'attività dei PR.
-Analisi dei risultati dei gruppi.
-6.10 Gestione degli incassi
-Consultazione dell'incasso generato dal PR.
-Monitoraggio dell'incasso generato per la discoteca.
-Consultazione dell'incasso spettante al PR, secondo le regole definite.
-Consultazione degli incassi della propria lista.
-Analisi dei risultati economici delle attività.
-6.11 Gestione amministrativa e reportistica
-Gestione di utenti, ruoli e permessi.
-Gestione di discoteche e liste.
-Configurazione delle soglie degli omaggi.
-Gestione di tavoli ed eventi.
-Disattivazione degli account.
-Generazione di report periodici.
-Consultazione del registro delle modifiche.
-Analisi di conteggi e incassi.
-📋 7. Requisiti funzionali e User Story
+### 6.1 Autenticazione e gestione dell'account
+* Registrazione di un utente.
+* Accesso tramite login e verifica delle credenziali.
+* Recupero della password.
+* Visualizzazione e modifica del profilo personale.
+* Associazione di ruoli e permessi agli account.
+* Visualizzazione degli utenti registrati.
+* Disattivazione degli account utente.
+### 6.2 Gestione delle discoteche
+* Visualizzazione e selezione delle discoteche disponibili.
+* Creazione e modifica delle informazioni di una discoteca.
+* Gestione amministrativa dei locali.
+* Associazione delle liste alle discoteche.
+* Possibilità per un PR di lavorare per più discoteche, quando abilitata.
+### 6.3 Gestione delle liste
+* Selezione della lista di lavoro.
+* Creazione e gestione delle liste.
+* Associazione delle liste alle discoteche.
+* Modifica delle informazioni della lista.
+* Visualizzazione dell'albero gerarchico e dei membri.
+* Assegnazione e rimozione dei PR.
+* Consultazione dei PR appartenenti alla lista.
+* Inserimento e consultazione delle note della lista.
+### 6.4 Gestione delle prenotazioni
+* Creazione, modifica, visualizzazione ed eliminazione delle prenotazioni.
+* Associazione delle prenotazioni ai clienti, ai tavoli e agli eventi pertinenti.
+* Modifica dello stato della prenotazione.
+* Inserimento e consultazione delle note.
+* Modifica del prezzo associato al pagante.
+* Gestione delle prenotazioni della propria lista da parte del Capolista.
+### 6.5 Gestione dei clienti
+* Visualizzazione della lista dei clienti.
+* Ricerca rapida dei clienti.
+* Consultazione della scheda cliente.
+* Visualizzazione dello storico delle attività.
+* Consultazione dello storico dei tavoli prenotati.
+* Inserimento e visualizzazione delle note.
+* Registrazione del numero e dei nomi delle persone portate da ciascun cliente.
+* Consultazione dei clienti associati alla propria lista.
+### 6.6 Gestione dei tavoli
+* Creazione e configurazione dei tavoli.
+* Visualizzazione delle informazioni dei tavoli.
+* Modifica dei dati e delle caratteristiche.
+* Associazione dei tavoli alle discoteche.
+*Gestione delle informazioni necessarie alla prenotazione.
+### 6.7 Programmazione ed eventi
+* Visualizzazione della programmazione settimanale.
+* Consultazione degli eventi programmati.
+* Creazione di nuovi eventi.
+* Modifica delle informazioni degli eventi.
+* Associazione degli eventi alle rispettive discoteche.
+### 6.8 Gestione degli omaggi
+* Consultazione degli omaggi disponibili.
+* Configurazione delle soglie per ogni discoteca.
+* Definizione delle condizioni per il riconoscimento dei benefici.
+* Sblocco degli omaggi al raggiungimento delle soglie previste.
+* Visualizzazione dei benefici ottenuti dai PR.
+### 6.9 Conteggi e statistiche
+* Conteggio dei clienti portati da ogni PR.
+* Consultazione dei conteggi per periodo.
+* Visualizzazione dei conteggi complessivi della propria lista.
+* Monitoraggio dell'attività dei PR.
+* Analisi dei risultati dei gruppi.
+### 6.10 Gestione degli incassi
+* Consultazione dell'incasso generato dal PR.
+* Monitoraggio dell'incasso generato per la discoteca.
+* Consultazione dell'incasso spettante al PR, secondo le regole definite.
+* Consultazione degli incassi della propria lista.
+* Analisi dei risultati economici delle attività.
+### 6.11 Gestione amministrativa e reportistica
+* Gestione di utenti, ruoli e permessi.
+* Gestione di discoteche e liste.
+* Configurazione delle soglie degli omaggi.
+* Gestione di tavoli ed eventi.
+* Disattivazione degli account.
+* Generazione di report periodici.
+* Consultazione del registro delle modifiche.
+* Analisi di conteggi e incassi.
+## 📋 7. Requisiti funzionali e User Story
 
 Le User Story descrivono le funzionalità attese dal punto di vista dei diversi attori. Ogni requisito è identificato da un codice univoco per facilitarne la consultazione, l'implementazione e la verifica.
 
@@ -254,7 +257,7 @@ RNF13	Verificabilità delle operazioni	Rendere verificabili le modifiche e le op
 
 I requisiti costituiscono obiettivi progettuali. Soglie numeriche di prestazione, disponibilità e recupero dovranno essere definite durante la progettazione tecnica.
 
-🧩 9. Requisiti di dominio
+## 🧩 9. Requisiti di dominio
 
 I requisiti di dominio descrivono le regole organizzative e operative proprie del settore nightlife.
 
@@ -325,7 +328,7 @@ Eventi e programmazione.
 Tavoli e disponibilità.
 Regole per conteggi, incassi e omaggi.
 Ambiti di autorizzazione e separazione dei dati.
-🗂️ 11. Matrice dei permessi
+## 🗂️ 11. Matrice dei permessi
 
 La tabella seguente rappresenta la proposta iniziale dei permessi. Le autorizzazioni definitive dovranno essere validate durante la progettazione.
 
@@ -357,28 +360,28 @@ Disattivazione degli account	—	—	✓
 Generazione di report periodici	—	—	✓
 Consultazione del registro delle modifiche	—	—	✓
 Nota: la matrice indica le autorizzazioni previste a livello funzionale. I controlli effettivi dovranno essere applicati anche lato server e verificati per ogni discoteca, lista e risorsa interessata.
-📐 12. Regole di dominio principali
+## 📐 12. Regole di dominio principali
 
 Le seguenti regole sintetizzano il comportamento atteso del sistema.
 
-12.1 Ambito organizzativo
+### 12.1 Ambito organizzativo
 Le liste sono associate alle discoteche.
 Gli utenti possono operare soltanto nelle liste e nelle discoteche per cui risultano autorizzati.
 Il Capolista gestisce esclusivamente la propria area organizzativa.
 L'accesso a più discoteche per un PR dipende dall'abilitazione della relativa funzionalità.
-12.2 Prenotazioni
+### 12.2 Prenotazioni
 Ogni prenotazione deve essere identificabile e associata alle informazioni necessarie alla sua gestione.
 Le prenotazioni devono poter essere create, modificate ed eliminate dagli utenti autorizzati.
 Lo stato della prenotazione deve rappresentarne la situazione operativa.
 Le note devono poter essere consultate dagli utenti autorizzati.
 Le modifiche ai prezzi devono rispettare i permessi assegnati e le regole economiche applicabili.
-12.3 Clienti e conteggi
+### 12.3 Clienti e conteggi
 I clienti devono poter essere ricercati e identificati attraverso una scheda.
 Lo storico deve consentire di consultare le attività precedenti associate al cliente.
 Il sistema deve permettere di registrare le persone portate da ciascun cliente.
 I conteggi devono essere consultabili per periodo e per ambito organizzativo.
 L'attribuzione dei clienti ai PR deve seguire regole coerenti e verificabili.
-12.4 Incassi e omaggi
+### 12.4 Incassi e omaggi
 I conteggi economici devono rispettare le regole di attribuzione definite per le prenotazioni e i clienti.
 Le soglie degli omaggi devono poter essere configurate per discoteca.
 Il riconoscimento dei benefici deve dipendere dalle soglie e dalle condizioni effettivamente configurate.
@@ -386,31 +389,31 @@ Gli incassi individuali e quelli della lista devono essere consultabili soltanto
 
 Le formule di conteggio, i criteri per gli incassi e le condizioni esatte di sblocco degli omaggi dovranno essere definite esplicitamente prima dell'implementazione.
 
-🖼️ 13. Diagrammi UML
+## 🖼️ 13. Diagrammi UML
 
 I diagrammi UML descrivono i casi d'uso previsti per i diversi ruoli del sistema.
 
 Inserisci le immagini nella cartella principale del repository oppure modifica i percorsi in base alla posizione effettiva dei file.
 
-13.1 Diagramma dei casi d'uso — Capolista
+### 13.1 Diagramma dei casi d'uso — Capolista
 
 !Diagramma UML dei casi d'uso del Capolista
 
 Il diagramma rappresenta le operazioni disponibili al Capolista, tra cui la gestione della propria lista, il coordinamento dei PR e la consultazione dei risultati del gruppo.
 
-13.2 Diagramma dei casi d'uso — PR
+### 13.2 Diagramma dei casi d'uso — PR
 
 !Diagramma UML dei casi d'uso del PR
 
 Il diagramma rappresenta le operazioni del PR relative a clienti, prenotazioni, tavoli, eventi, conteggi e informazioni personali.
 
-13.3 Diagramma dei casi d'uso — Amministratore
+### 13.3 Diagramma dei casi d'uso — Amministratore
 
 !Diagramma UML dei casi d'uso dell'Amministratore
 
 Il diagramma rappresenta le operazioni amministrative relative agli utenti, ai ruoli, alle discoteche, alle liste, ai tavoli, agli eventi e alla reportistica.
 
-🔐 14. Sicurezza e protezione dei dati
+## 🔐 14. Sicurezza e protezione dei dati
 
 La sicurezza è un requisito trasversale dell'applicazione.
 
@@ -427,30 +430,30 @@ Gestione degli account: possibilità di disattivare gli account non più autoriz
 
 I controlli di sicurezza dovranno essere applicati anche lato server, evitando di affidare la protezione dei dati esclusivamente all'interfaccia utente.
 
-🚀 15. Evoluzione del progetto
+## 🚀 15. Evoluzione del progetto
 
 Le funzionalità descritte costituiscono la base funzionale di Tavora. Lo sviluppo potrà essere organizzato progressivamente.
 
-Fase 1 — Funzionalità fondamentali
+### Fase 1 — Funzionalità fondamentali
 Registrazione, login e recupero password.
 Gestione dei ruoli e dei permessi.
 Selezione della discoteca e della lista.
 Gestione delle prenotazioni.
 Gestione dei clienti e delle relative schede.
 Configurazione iniziale dei tavoli e degli eventi.
-Fase 2 — Organizzazione delle liste
+### Fase 2 — Organizzazione delle liste
 Visualizzazione dell'albero gerarchico.
 Assegnazione e rimozione dei PR.
 Gestione delle informazioni e delle note delle liste.
 Gestione delle prenotazioni del gruppo.
 Consultazione dei clienti della propria lista.
-Fase 3 — Conteggi e risultati economici
+### Fase 3 — Conteggi e risultati economici
 Conteggio dei clienti portati.
 Consultazione dei conteggi per periodo.
 Calcolo e consultazione degli incassi secondo le regole definite.
 Configurazione e verifica delle soglie degli omaggi.
 Consultazione dei risultati aggregati della lista.
-Fase 4 — Amministrazione e controllo
+### Fase 4 — Amministrazione e controllo
 Gestione completa di utenti e discoteche.
 Gestione amministrativa di liste, tavoli ed eventi.
 Report periodici.
@@ -463,7 +466,7 @@ Definizione di ulteriori funzionalità in base alle esigenze operative.
 
 La suddivisione proposta è indicativa e non sostituisce la pianificazione effettiva dello sviluppo.
 
-📌 Conclusione
+## 📌 Conclusione
 
 Tavora vuole offrire ai professionisti della nightlife uno strumento unico, strutturato e affidabile per organizzare le serate in discoteca.
 
@@ -471,7 +474,4 @@ Centralizzando prenotazioni, clienti, tavoli, liste, collaboratori, conteggi e i
 
 La definizione dei requisiti funzionali, non funzionali e di dominio costituisce la base per progettare un sistema coerente con le esigenze operative dei PR, dei Capolista e degli Amministratori.
 
-Progetto: Tavora — Web App per la gestione delle serate in discoteca
-Repository: GitHub
-Strumento UML indicato: yUML
-Documento: README.md
+
