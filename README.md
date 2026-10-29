@@ -389,19 +389,19 @@ Inserisci le immagini nella cartella principale del repository oppure modifica i
 
 **13.1 Diagramma dei casi d'uso — Capolista**
 
-!Diagramma UML dei casi d'uso del Capolista
+!(Diagramma dei casi d'uso - Capolista)(capolista-uml-use-case)
 
 Il diagramma rappresenta le operazioni disponibili al Capolista, tra cui la gestione della propria lista, il coordinamento dei PR e la consultazione dei risultati del gruppo.
 
 **13.2 Diagramma dei casi d'uso — PR**
 
-!Diagramma UML dei casi d'uso del PR
+!(Diagramma dei casi d'uso - PR)(pr-uml-use-case)
 
 Il diagramma rappresenta le operazioni del PR relative a clienti, prenotazioni, tavoli, eventi, conteggi e informazioni personali.
 
 **13.3 Diagramma dei casi d'uso — Amministratore**
 
-!Diagramma UML dei casi d'uso dell'Amministratore
+!(Diagramma dei casi d'uso - Amministratore)(amministratore-uml-use-case)
 
 Il diagramma rappresenta le operazioni amministrative relative agli utenti, ai ruoli, alle discoteche, alle liste, ai tavoli, agli eventi e alla reportistica.
 
