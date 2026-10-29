@@ -1,6 +1,6 @@
 # 🎧 Tavora — Web App per la gestione delle serate in discoteca
 
-La tua lista, il tuo network, la tua notte. 
+### La tua lista, il tuo network, la tua notte. 
 
 Tavora è una web application progettata per semplificare la gestione e l'organizzazione delle serate in discoteca, offrendo ai PR, ai Capolista e agli Amministratori un unico ambiente in cui gestire prenotazioni, clienti, tavoli, liste, eventi, conteggi e incassi.
 ## 📑 Indice
