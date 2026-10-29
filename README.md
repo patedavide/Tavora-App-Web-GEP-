@@ -389,7 +389,7 @@ Inserisci le immagini nella cartella principale del repository oppure modifica i
 
 **13.1 Diagramma dei casi d'uso — Capolista**
 
-!(Diagramma dei casi d'uso - Capolista)(capolista-uml-use-case)
+![Diagramma dei casi d'uso - Capolista](capolista-uml-use-case)
 
 Il diagramma rappresenta le operazioni disponibili al Capolista, tra cui la gestione della propria lista, il coordinamento dei PR e la consultazione dei risultati del gruppo.
 
