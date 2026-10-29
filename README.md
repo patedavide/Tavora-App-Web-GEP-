@@ -4,21 +4,21 @@
 
 Tavora è una web application progettata per semplificare la gestione e l'organizzazione delle serate in discoteca, offrendo ai PR, ai Capolista e agli Amministratori un unico ambiente in cui gestire prenotazioni, clienti, tavoli, liste, eventi, conteggi e incassi.
 ## 📑 Indice
-* 1. Panoramica del progetto
-* 2. Problema e obiettivi
-* 3. Target e attori
-* 4. Competitor
-* 5. Tecnologie e strumenti
-* 6. Funzionalità dell'applicazione
-* 7. Requisiti funzionali e User Story
-* 8. Requisiti non funzionali
-* 9. Requisiti di dominio
-* 10. Attori e ruoli
-* 11. Matrice dei permessi
-* 12. Regole di dominio principali
-* 13. Diagrammi UML
-* 14. Sicurezza e protezione dei dati
-* 15. Evoluzione del progetto
+1. Panoramica del progetto
+2. Problema e obiettivi
+3. Target e attori
+4. Competitor
+5. Tecnologie e strumenti
+6. Funzionalità dell'applicazione
+7. Requisiti funzionali e User Story
+8. Requisiti non funzionali
+9. Requisiti di dominio
+10. Attori e ruoli
+11. Matrice dei permessi
+12. Regole di dominio principali
+13. Diagrammi UML
+14. Sicurezza e protezione dei dati
+15. Evoluzione del progetto
 ## 🎯 1. Panoramica del progetto
 
 Tavora nasce con l'obiettivo di digitalizzare e centralizzare le attività organizzative dei PR che lavorano nel settore nightlife.
