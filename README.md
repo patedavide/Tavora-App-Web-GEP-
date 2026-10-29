@@ -198,6 +198,7 @@ Le User Story descrivono le funzionalità attese dal punto di vista dei diversi 
 * US18 — Gestione utenti, ruoli e permessi	Come Amministratore, voglio gestire gli utenti, i loro ruoli e i relativi permessi, così da controllare l'accesso alle funzionalità del sistema.
 * US39 — Visualizzazione degli utenti registrati	Come Amministratore, voglio visualizzare gli utenti registrati, così da monitorare gli account presenti sulla piattaforma e amministrarne l'accesso.
 * US40 — Disattivazione di un account utente	Come Amministratore, voglio disattivare un account utente, così da impedire l'accesso al sistema agli utenti che non devono più utilizzarlo.
+
 **7.2 Discoteche, liste e gerarchie**
 * US02 — Scelta della discoteca	Come PR, voglio scegliere la discoteca per la quale lavoro, così da gestire la mia attività nella discoteca selezionata.
 * US19 — Selezione della lista	Come PR o Capolista, voglio selezionare una lista, così da gestire e consultare le attività associate alla lista selezionata.
@@ -209,6 +210,7 @@ Le User Story descrivono le funzionalità attese dal punto di vista dei diversi 
 * US29 — Visualizzazione dei PR della propria lista	Come Capolista, voglio visualizzare i PR della mia lista, così da conoscere i membri del gruppo e monitorarne l'organizzazione.
 * US33 — Gestione delle informazioni della propria lista	Come Capolista, voglio gestire le informazioni della mia lista, così da mantenere aggiornati i dati organizzativi del gruppo.
 * US38 — Gestione delle liste	Come Amministratore, voglio gestire le liste delle discoteche, così da organizzare la struttura dei gruppi e consentire la corretta assegnazione dei PR e dei Capolista.
+
 **7.3 Prenotazioni e tavoli**
 * US03 — Aggiunta della prenotazione di un tavolo	Come PR, voglio aggiungere una prenotazione di un tavolo, così da registrare la prenotazione di un cliente.
 * US04 — Eliminazione della prenotazione di un tavolo	Come PR, voglio eliminare una prenotazione di un tavolo, così da rimuovere una prenotazione non più necessaria.
@@ -218,6 +220,7 @@ Le User Story descrivono le funzionalità attese dal punto di vista dei diversi 
 * US21 — Modifica dello stato di una prenotazione	Come PR o Capolista, voglio modificare lo stato di una prenotazione, così da mantenere aggiornate le informazioni relative alla sua gestione.
 * US30 — Gestione delle prenotazioni della propria lista	Come Capolista, voglio gestire le prenotazioni della mia lista, così da coordinare le attività dei PR e controllare le prenotazioni associate al gruppo.
 * US41 — Gestione dei tavoli	Come Amministratore, voglio gestire i tavoli delle discoteche, così da mantenere aggiornata la disponibilità e la configurazione dei tavoli prenotabili.
+
 **7.4 Clienti e storico**
 * US07 — Lista dei clienti	Come PR, voglio visualizzare la lista dei clienti, così da consultare i clienti associati alla mia attività.
 * US08 — Storico di ogni cliente	Come PR, voglio visualizzare lo storico di ogni cliente, così da conoscere le attività precedenti del cliente.
@@ -227,6 +230,7 @@ Le User Story descrivono le funzionalità attese dal punto di vista dei diversi 
 * US17 — Note cliente	Come PR, voglio inserire e visualizzare note relative a un cliente, così da conservare informazioni aggiuntive sul cliente.
 * US34 — Visualizzazione dei clienti della propria lista	Come Capolista, voglio visualizzare i clienti della mia lista, così da consultare i clienti gestiti dal gruppo e monitorarne l'attività.
 * US35 — Gestione delle note della propria lista	Come Capolista, voglio gestire le note della mia lista, così da conservare e consultare informazioni utili all'organizzazione del gruppo.
+
 **7.5 Programmazione, conteggi, incassi e omaggi**
 * US13 — Programmazione settimanale	Come PR, voglio visualizzare la programmazione settimanale, così da conoscere gli eventi programmati.
 * US22 — Consultazione degli omaggi disponibili	Come PR o Capolista, voglio consultare gli omaggi disponibili, così da conoscere i benefici ottenuti in base ai clienti portati e alle soglie raggiunte.
@@ -234,6 +238,7 @@ Le User Story descrivono le funzionalità attese dal punto di vista dei diversi 
 * US24 — Incasso generato	Come PR o Capolista, voglio consultare l'incasso generato dalla mia attività, così da monitorare i risultati economici relativi alle prenotazioni e ai clienti portati.
 * US31 — Conteggi della propria lista	Come Capolista, voglio consultare i conteggi della mia lista, così da monitorare i risultati complessivi del gruppo e l'attività dei suoi membri.
 * US32 — Incassi della propria lista	Come Capolista, voglio consultare gli incassi della mia lista, così da monitorare i risultati economici complessivi del gruppo.
+
 **7.6 Amministrazione ed eventi**
 * US36 — Configurazione delle soglie degli omaggi	Come Amministratore, voglio configurare le soglie degli omaggi per ogni discoteca, così da definire le condizioni per il riconoscimento dei benefici ai PR.
 * US37 — Gestione delle discoteche	Come Amministratore, voglio gestire le discoteche presenti nel sistema, così da mantenere aggiornate le informazioni dei locali e consentirne l'utilizzo da parte degli utenti autorizzati.
