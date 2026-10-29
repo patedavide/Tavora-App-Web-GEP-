@@ -180,80 +180,73 @@ Le funzionalità sono suddivise in undici aree principali.
 
 Le User Story descrivono le funzionalità attese dal punto di vista dei diversi attori. Ogni requisito è identificato da un codice univoco per facilitarne la consultazione, l'implementazione e la verifica.
 
-7.1 Autenticazione e account
-ID	User Story
-US01 — Login / Registrazione	Come utente, voglio registrarmi e accedere al sistema tramite login, così da poter utilizzare le funzionalità del sistema.
-US09 — Profilo personale PR	Come PR, voglio visualizzare e gestire il mio profilo personale, così da gestire le mie informazioni personali.
-US10 — Recupero password	Come utente, voglio recuperare la mia password, così da poter accedere nuovamente al sistema nel caso la dimentichi.
-US11 — Ruoli e permessi	Come utente, voglio avere un ruolo e dei permessi associati al mio account, così da utilizzare le funzionalità previste per il mio ruolo.
-US18 — Gestione utenti, ruoli e permessi	Come Amministratore, voglio gestire gli utenti, i loro ruoli e i relativi permessi, così da controllare l'accesso alle funzionalità del sistema.
-US39 — Visualizzazione degli utenti registrati	Come Amministratore, voglio visualizzare gli utenti registrati, così da monitorare gli account presenti sulla piattaforma e amministrarne l'accesso.
-US40 — Disattivazione di un account utente	Come Amministratore, voglio disattivare un account utente, così da impedire l'accesso al sistema agli utenti che non devono più utilizzarlo.
-7.2 Discoteche, liste e gerarchie
-ID	User Story
-US02 — Scelta della discoteca	Come PR, voglio scegliere la discoteca per la quale lavoro, così da gestire la mia attività nella discoteca selezionata.
-US19 — Selezione della lista	Come PR o Capolista, voglio selezionare una lista, così da gestire e consultare le attività associate alla lista selezionata.
-US20 — Albero gerarchico della lista	Come PR o Capolista, voglio visualizzare l'albero gerarchico della lista, così da conoscere la struttura organizzativa della lista e le relazioni tra i suoi membri.
-US25 — Gestione di più discoteche	Come PR, voglio poter lavorare per più discoteche, così da gestire la mia attività in diversi locali anche quando questa possibilità viene abilitata successivamente.
-US26 — Gestione dei PR della propria lista	Come Capolista, voglio gestire i PR della mia lista, così da organizzare e controllare i membri che ne fanno parte.
-US27 — Assegnazione dei PR alla propria lista	Come Capolista, voglio assegnare dei PR alla mia lista, così da organizzare la struttura del gruppo e includere nuovi collaboratori.
-US28 — Rimozione dei PR dalla propria lista	Come Capolista, voglio rimuovere un PR dalla mia lista, così da mantenere aggiornata la composizione del gruppo.
-US29 — Visualizzazione dei PR della propria lista	Come Capolista, voglio visualizzare i PR della mia lista, così da conoscere i membri del gruppo e monitorarne l'organizzazione.
-US33 — Gestione delle informazioni della propria lista	Come Capolista, voglio gestire le informazioni della mia lista, così da mantenere aggiornati i dati organizzativi del gruppo.
-US38 — Gestione delle liste	Come Amministratore, voglio gestire le liste delle discoteche, così da organizzare la struttura dei gruppi e consentire la corretta assegnazione dei PR e dei Capolista.
-7.3 Prenotazioni e tavoli
-ID	User Story
-US03 — Aggiunta della prenotazione di un tavolo	Come PR, voglio aggiungere una prenotazione di un tavolo, così da registrare la prenotazione di un cliente.
-US04 — Eliminazione della prenotazione di un tavolo	Come PR, voglio eliminare una prenotazione di un tavolo, così da rimuovere una prenotazione non più necessaria.
-US05 — Modifica della prenotazione di un tavolo	Come PR, voglio modificare una prenotazione di un tavolo, così da mantenere aggiornati i dati della prenotazione.
-US06 — Modifica del prezzo di un pagante	Come PR, voglio modificare il prezzo di un pagante, così da aggiornare l'importo associato alla prenotazione.
-US12 — Note sulla prenotazione	Come PR, voglio inserire e visualizzare note relative a una prenotazione, così da memorizzare informazioni aggiuntive sulla prenotazione.
-US21 — Modifica dello stato di una prenotazione	Come PR o Capolista, voglio modificare lo stato di una prenotazione, così da mantenere aggiornate le informazioni relative alla sua gestione.
-US30 — Gestione delle prenotazioni della propria lista	Come Capolista, voglio gestire le prenotazioni della mia lista, così da coordinare le attività dei PR e controllare le prenotazioni associate al gruppo.
-US41 — Gestione dei tavoli	Come Amministratore, voglio gestire i tavoli delle discoteche, così da mantenere aggiornata la disponibilità e la configurazione dei tavoli prenotabili.
-7.4 Clienti e storico
-ID	User Story
-US07 — Lista dei clienti	Come PR, voglio visualizzare la lista dei clienti, così da consultare i clienti associati alla mia attività.
-US08 — Storico di ogni cliente	Come PR, voglio visualizzare lo storico di ogni cliente, così da conoscere le attività precedenti del cliente.
-US14 — Scheda cliente	Come PR, voglio visualizzare la scheda di un cliente, così da consultare le informazioni relative al cliente.
-US15 — Storico tavoli cliente	Come PR, voglio visualizzare lo storico dei tavoli di un cliente, così da conoscere le precedenti prenotazioni del cliente.
-US16 — Ricerca cliente	Come PR, voglio ricercare un cliente, così da trovare rapidamente le sue informazioni.
-US17 — Note cliente	Come PR, voglio inserire e visualizzare note relative a un cliente, così da conservare informazioni aggiuntive sul cliente.
-US34 — Visualizzazione dei clienti della propria lista	Come Capolista, voglio visualizzare i clienti della mia lista, così da consultare i clienti gestiti dal gruppo e monitorarne l'attività.
-US35 — Gestione delle note della propria lista	Come Capolista, voglio gestire le note della mia lista, così da conservare e consultare informazioni utili all'organizzazione del gruppo.
-7.5 Programmazione, conteggi, incassi e omaggi
-ID	User Story
-US13 — Programmazione settimanale	Come PR, voglio visualizzare la programmazione settimanale, così da conoscere gli eventi programmati.
-US22 — Consultazione degli omaggi disponibili	Come PR o Capolista, voglio consultare gli omaggi disponibili, così da conoscere i benefici ottenuti in base ai clienti portati e alle soglie raggiunte.
-US23 — Conteggi dei clienti per periodo	Come PR o Capolista, voglio consultare i conteggi dei clienti per periodo, così da monitorare la mia attività e verificare i risultati raggiunti.
-US24 — Incasso generato	Come PR o Capolista, voglio consultare l'incasso generato dalla mia attività, così da monitorare i risultati economici relativi alle prenotazioni e ai clienti portati.
-US31 — Conteggi della propria lista	Come Capolista, voglio consultare i conteggi della mia lista, così da monitorare i risultati complessivi del gruppo e l'attività dei suoi membri.
-US32 — Incassi della propria lista	Come Capolista, voglio consultare gli incassi della mia lista, così da monitorare i risultati economici complessivi del gruppo.
-7.6 Amministrazione ed eventi
-ID	User Story
-US36 — Configurazione delle soglie degli omaggi	Come Amministratore, voglio configurare le soglie degli omaggi per ogni discoteca, così da definire le condizioni per il riconoscimento dei benefici ai PR.
-US37 — Gestione delle discoteche	Come Amministratore, voglio gestire le discoteche presenti nel sistema, così da mantenere aggiornate le informazioni dei locali e consentirne l'utilizzo da parte degli utenti autorizzati.
-US42 — Gestione degli eventi	Come Amministratore, voglio gestire gli eventi delle discoteche, così da mantenere aggiornata la programmazione disponibile agli utenti.
-US43 — Generazione di report periodici	Come Amministratore, voglio generare report periodici, così da analizzare l'andamento delle attività e verificare i risultati delle discoteche e delle liste.
-US44 — Registro delle modifiche	Come Amministratore, voglio visualizzare il registro delle modifiche, così da verificare le operazioni eseguite nel sistema e facilitare le attività di controllo.
-🔒 8. Requisiti non funzionali
+### 7.1 Autenticazione e account
+* US01 — Login / Registrazione	Come utente, voglio registrarmi e accedere al sistema tramite login, così da poter utilizzare le funzionalità del sistema.
+* US09 — Profilo personale PR	Come PR, voglio visualizzare e gestire il mio profilo personale, così da gestire le mie informazioni personali.
+* US10 — Recupero password	Come utente, voglio recuperare la mia password, così da poter accedere nuovamente al sistema nel caso la dimentichi.
+* US11 — Ruoli e permessi	Come utente, voglio avere un ruolo e dei permessi associati al mio account, così da utilizzare le funzionalità previste per il mio ruolo.
+* US18 — Gestione utenti, ruoli e permessi	Come Amministratore, voglio gestire gli utenti, i loro ruoli e i relativi permessi, così da controllare l'accesso alle funzionalità del sistema.
+* US39 — Visualizzazione degli utenti registrati	Come Amministratore, voglio visualizzare gli utenti registrati, così da monitorare gli account presenti sulla piattaforma e amministrarne l'accesso.
+* US40 — Disattivazione di un account utente	Come Amministratore, voglio disattivare un account utente, così da impedire l'accesso al sistema agli utenti che non devono più utilizzarlo.
+### 7.2 Discoteche, liste e gerarchie
+* US02 — Scelta della discoteca	Come PR, voglio scegliere la discoteca per la quale lavoro, così da gestire la mia attività nella discoteca selezionata.
+* US19 — Selezione della lista	Come PR o Capolista, voglio selezionare una lista, così da gestire e consultare le attività associate alla lista selezionata.
+* US20 — Albero gerarchico della lista	Come PR o Capolista, voglio visualizzare l'albero gerarchico della lista, così da conoscere la struttura organizzativa della lista e le relazioni tra i suoi membri.
+* US25 — Gestione di più discoteche	Come PR, voglio poter lavorare per più discoteche, così da gestire la mia attività in diversi locali anche quando questa possibilità viene abilitata successivamente.
+* US26 — Gestione dei PR della propria lista	Come Capolista, voglio gestire i PR della mia lista, così da organizzare e controllare i membri che ne fanno parte.
+* US27 — Assegnazione dei PR alla propria lista	Come Capolista, voglio assegnare dei PR alla mia lista, così da organizzare la struttura del gruppo e includere nuovi collaboratori.
+* US28 — Rimozione dei PR dalla propria lista	Come Capolista, voglio rimuovere un PR dalla mia lista, così da mantenere aggiornata la composizione del gruppo.
+* US29 — Visualizzazione dei PR della propria lista	Come Capolista, voglio visualizzare i PR della mia lista, così da conoscere i membri del gruppo e monitorarne l'organizzazione.
+* US33 — Gestione delle informazioni della propria lista	Come Capolista, voglio gestire le informazioni della mia lista, così da mantenere aggiornati i dati organizzativi del gruppo.
+* US38 — Gestione delle liste	Come Amministratore, voglio gestire le liste delle discoteche, così da organizzare la struttura dei gruppi e consentire la corretta assegnazione dei PR e dei Capolista.
+### 7.3 Prenotazioni e tavoli
+* US03 — Aggiunta della prenotazione di un tavolo	Come PR, voglio aggiungere una prenotazione di un tavolo, così da registrare la prenotazione di un cliente.
+* US04 — Eliminazione della prenotazione di un tavolo	Come PR, voglio eliminare una prenotazione di un tavolo, così da rimuovere una prenotazione non più necessaria.
+* US05 — Modifica della prenotazione di un tavolo	Come PR, voglio modificare una prenotazione di un tavolo, così da mantenere aggiornati i dati della prenotazione.
+* US06 — Modifica del prezzo di un pagante	Come PR, voglio modificare il prezzo di un pagante, così da aggiornare l'importo associato alla prenotazione.
+* US12 — Note sulla prenotazione	Come PR, voglio inserire e visualizzare note relative a una prenotazione, così da memorizzare informazioni aggiuntive sulla prenotazione.
+* US21 — Modifica dello stato di una prenotazione	Come PR o Capolista, voglio modificare lo stato di una prenotazione, così da mantenere aggiornate le informazioni relative alla sua gestione.
+* US30 — Gestione delle prenotazioni della propria lista	Come Capolista, voglio gestire le prenotazioni della mia lista, così da coordinare le attività dei PR e controllare le prenotazioni associate al gruppo.
+* US41 — Gestione dei tavoli	Come Amministratore, voglio gestire i tavoli delle discoteche, così da mantenere aggiornata la disponibilità e la configurazione dei tavoli prenotabili.
+### 7.4 Clienti e storico
+* US07 — Lista dei clienti	Come PR, voglio visualizzare la lista dei clienti, così da consultare i clienti associati alla mia attività.
+* US08 — Storico di ogni cliente	Come PR, voglio visualizzare lo storico di ogni cliente, così da conoscere le attività precedenti del cliente.
+* US14 — Scheda cliente	Come PR, voglio visualizzare la scheda di un cliente, così da consultare le informazioni relative al cliente.
+* US15 — Storico tavoli cliente	Come PR, voglio visualizzare lo storico dei tavoli di un cliente, così da conoscere le precedenti prenotazioni del cliente.
+* US16 — Ricerca cliente	Come PR, voglio ricercare un cliente, così da trovare rapidamente le sue informazioni.
+* US17 — Note cliente	Come PR, voglio inserire e visualizzare note relative a un cliente, così da conservare informazioni aggiuntive sul cliente.
+* US34 — Visualizzazione dei clienti della propria lista	Come Capolista, voglio visualizzare i clienti della mia lista, così da consultare i clienti gestiti dal gruppo e monitorarne l'attività.
+* US35 — Gestione delle note della propria lista	Come Capolista, voglio gestire le note della mia lista, così da conservare e consultare informazioni utili all'organizzazione del gruppo.
+### 7.5 Programmazione, conteggi, incassi e omaggi
+* US13 — Programmazione settimanale	Come PR, voglio visualizzare la programmazione settimanale, così da conoscere gli eventi programmati.
+* US22 — Consultazione degli omaggi disponibili	Come PR o Capolista, voglio consultare gli omaggi disponibili, così da conoscere i benefici ottenuti in base ai clienti portati e alle soglie raggiunte.
+* US23 — Conteggi dei clienti per periodo	Come PR o Capolista, voglio consultare i conteggi dei clienti per periodo, così da monitorare la mia attività e verificare i risultati raggiunti.
+* US24 — Incasso generato	Come PR o Capolista, voglio consultare l'incasso generato dalla mia attività, così da monitorare i risultati economici relativi alle prenotazioni e ai clienti portati.
+* US31 — Conteggi della propria lista	Come Capolista, voglio consultare i conteggi della mia lista, così da monitorare i risultati complessivi del gruppo e l'attività dei suoi membri.
+* US32 — Incassi della propria lista	Come Capolista, voglio consultare gli incassi della mia lista, così da monitorare i risultati economici complessivi del gruppo.
+### 7.6 Amministrazione ed eventi
+* US36 — Configurazione delle soglie degli omaggi	Come Amministratore, voglio configurare le soglie degli omaggi per ogni discoteca, così da definire le condizioni per il riconoscimento dei benefici ai PR.
+* US37 — Gestione delle discoteche	Come Amministratore, voglio gestire le discoteche presenti nel sistema, così da mantenere aggiornate le informazioni dei locali e consentirne l'utilizzo da parte degli utenti autorizzati.
+* US42 — Gestione degli eventi	Come Amministratore, voglio gestire gli eventi delle discoteche, così da mantenere aggiornata la programmazione disponibile agli utenti.
+* US43 — Generazione di report periodici	Come Amministratore, voglio generare report periodici, così da analizzare l'andamento delle attività e verificare i risultati delle discoteche e delle liste.
+* US44 — Registro delle modifiche	Come Amministratore, voglio visualizzare il registro delle modifiche, così da verificare le operazioni eseguite nel sistema e facilitare le attività di controllo.
+## 🔒 8. Requisiti non funzionali
 
 I requisiti non funzionali definiscono le caratteristiche qualitative che il sistema deve rispettare.
 
-ID	Requisito	Descrizione
-RNF01	Sicurezza	Proteggere il sistema da accessi non autorizzati e utilizzi impropri.
-RNF02	Protezione delle password	Conservare le password mediante funzioni di hashing sicure e procedure appropriate di verifica.
-RNF03	Prestazioni	Garantire tempi di risposta adeguati durante le operazioni principali.
-RNF04	Disponibilità	Rendere il sistema accessibile in modo affidabile, compatibilmente con l'infrastruttura adottata.
-RNF05	Usabilità	Offrire un'interfaccia intuitiva e comprensibile, adatta all'utilizzo durante l'organizzazione delle serate.
-RNF06	Scalabilità	Consentire la crescita del numero di utenti, discoteche, liste e prenotazioni.
-RNF07	Privacy	Proteggere i dati personali e limitarne l'utilizzo alle finalità autorizzate.
-RNF08	Affidabilità	Ridurre il rischio di perdita o incoerenza dei dati.
-RNF09	Controllo degli accessi	Consentire l'utilizzo delle funzionalità esclusivamente agli utenti autorizzati.
-RNF10	Tracciabilità delle operazioni	Registrare le operazioni rilevanti effettuate dagli utenti.
-RNF11	Integrità dei dati	Mantenere coerenti le relazioni tra utenti, clienti, prenotazioni, tavoli, eventi e liste.
-RNF12	Isolamento dei dati per ambito organizzativo	Impedire che gli utenti accedano a dati esterni alle discoteche e alle liste per cui sono autorizzati.
-RNF13	Verificabilità delle operazioni	Rendere verificabili le modifiche e le operazioni rilevanti attraverso controlli e registrazioni adeguate.
+* RNF01	Sicurezza	Proteggere il sistema da accessi non autorizzati e utilizzi impropri.
+* RNF02	Protezione delle password	Conservare le password mediante funzioni di hashing sicure e procedure appropriate di verifica.
+* RNF03	Prestazioni	Garantire tempi di risposta adeguati durante le operazioni principali.
+* RNF04	Disponibilità	Rendere il sistema accessibile in modo affidabile, compatibilmente con l'infrastruttura adottata.
+* RNF05	Usabilità	Offrire un'interfaccia intuitiva e comprensibile, adatta all'utilizzo durante l'organizzazione delle serate.
+* RNF06	Scalabilità	Consentire la crescita del numero di utenti, discoteche, liste e prenotazioni.
+* RNF07	Privacy	Proteggere i dati personali e limitarne l'utilizzo alle finalità autorizzate.
+* RNF08	Affidabilità	Ridurre il rischio di perdita o incoerenza dei dati.
+* RNF09	Controllo degli accessi	Consentire l'utilizzo delle funzionalità esclusivamente agli utenti autorizzati.
+* RNF10	Tracciabilità delle operazioni	Registrare le operazioni rilevanti effettuate dagli utenti.
+* RNF11	Integrità dei dati	Mantenere coerenti le relazioni tra utenti, clienti, prenotazioni, tavoli, eventi e liste.
+* RNF12	Isolamento dei dati per ambito organizzativo	Impedire che gli utenti accedano a dati esterni alle discoteche e alle liste per cui sono autorizzati.
+* RNF13	Verificabilità delle operazioni	Rendere verificabili le modifiche e le operazioni rilevanti attraverso controlli e registrazioni adeguate.
 
 I requisiti costituiscono obiettivi progettuali. Soglie numeriche di prestazione, disponibilità e recupero dovranno essere definite durante la progettazione tecnica.
 
@@ -261,27 +254,26 @@ I requisiti costituiscono obiettivi progettuali. Soglie numeriche di prestazione
 
 I requisiti di dominio descrivono le regole organizzative e operative proprie del settore nightlife.
 
-ID	Requisito	Descrizione
-RD01	Scelta della lista	Gli utenti autorizzati selezionano la lista con cui intendono operare.
-RD02	Albero gerarchico della lista	Il sistema rappresenta la struttura della lista e le relazioni tra i membri.
-RD03	Sblocco degli omaggi	Gli omaggi vengono riconosciuti al raggiungimento delle soglie previste.
-RD04	Conteggio dei clienti portati dal PR	Il sistema permette di conteggiare i clienti attribuiti all'attività di ciascun PR.
-RD05	Lavoro per più discoteche	Un PR può operare per più discoteche quando tale possibilità è abilitata.
-RD06	Stato della prenotazione	Ogni prenotazione può assumere uno stato che ne rappresenta la situazione operativa.
-RD07	Persone portate da ogni cliente	Il sistema consente di registrare il numero e, quando necessario, i nominativi delle persone portate da un cliente.
-RD08	Incasso generato dal PR	Il sistema permette di consultare i risultati economici attribuiti al PR secondo le regole definite.
-RD09	Gestione amministrativa del sistema	L'Amministratore gestisce le principali entità e configurazioni della piattaforma.
-RD10	Associazione delle liste alle discoteche	Le liste sono associate ai locali per i quali vengono utilizzate.
-RD11	Gerarchia dei membri della lista	La struttura organizzativa identifica il Capolista e i PR appartenenti al gruppo.
-RD12	Appartenenza dei PR alle liste	Il sistema gestisce l'assegnazione e la rimozione dei PR dalle liste.
-RD13	Ambito di gestione del Capolista	Il Capolista opera sulle liste e sulle attività per cui dispone delle autorizzazioni.
-RD14	Configurazione degli omaggi per discoteca	Le soglie e le condizioni degli omaggi possono essere configurate per ciascuna discoteca.
-RD15	Informazioni dei tavoli	I tavoli sono associati a una discoteca e possiedono informazioni necessarie alla prenotazione.
-RD16	Associazione degli eventi alle discoteche	Ogni evento è associato al locale in cui si svolge.
-RD17	Reportistica amministrativa	L'Amministratore può analizzare i dati aggregati attraverso report periodici.
-RD18	Disattivazione degli account	Gli account possono essere disattivati dagli utenti autorizzati a svolgere tale operazione.
-RD19	Tracciabilità delle modifiche	Le modifiche rilevanti devono poter essere ricostruite attraverso un registro delle operazioni.
-🛡️ 10. Attori e ruoli
+* RD01	Scelta della lista	Gli utenti autorizzati selezionano la lista con cui intendono operare.
+* RD02	Albero gerarchico della lista	Il sistema rappresenta la struttura della lista e le relazioni tra i membri.
+* RD03	Sblocco degli omaggi	Gli omaggi vengono riconosciuti al raggiungimento delle soglie previste.
+* RD04	Conteggio dei clienti portati dal PR	Il sistema permette di conteggiare i clienti attribuiti all'attività di ciascun PR.
+* RD05	Lavoro per più discoteche	Un PR può operare per più discoteche quando tale possibilità è abilitata.
+* RD06	Stato della prenotazione	Ogni prenotazione può assumere uno stato che ne rappresenta la situazione operativa.
+* RD07	Persone portate da ogni cliente	Il sistema consente di registrare il numero e, quando necessario, i nominativi delle persone portate da un cliente.
+* RD08	Incasso generato dal PR	Il sistema permette di consultare i risultati economici attribuiti al PR secondo le regole definite.
+* RD09	Gestione amministrativa del sistema	L'Amministratore gestisce le principali entità e configurazioni della piattaforma.
+* RD10	Associazione delle liste alle discoteche	Le liste sono associate ai locali per i quali vengono utilizzate.
+* RD11	Gerarchia dei membri della lista	La struttura organizzativa identifica il Capolista e i PR appartenenti al gruppo.
+* RD12	Appartenenza dei PR alle liste	Il sistema gestisce l'assegnazione e la rimozione dei PR dalle liste.
+* RD13	Ambito di gestione del Capolista	Il Capolista opera sulle liste e sulle attività per cui dispone delle autorizzazioni.
+* RD14	Configurazione degli omaggi per discoteca	Le soglie e le condizioni degli omaggi possono essere configurate per ciascuna discoteca.
+* RD15	Informazioni dei tavoli	I tavoli sono associati a una discoteca e possiedono informazioni necessarie alla prenotazione.
+* RD16	Associazione degli eventi alle discoteche	Ogni evento è associato al locale in cui si svolge.
+* RD17	Reportistica amministrativa	L'Amministratore può analizzare i dati aggregati attraverso report periodici.
+* RD18	Disattivazione degli account	Gli account possono essere disattivati dagli utenti autorizzati a svolgere tale operazione.
+* RD19	Tracciabilità delle modifiche	Le modifiche rilevanti devono poter essere ricostruite attraverso un registro delle operazioni.
+## 🛡️ 10. Attori e ruoli
 PR
 
 Il PR è l'utente operativo che gestisce i clienti e le prenotazioni.
