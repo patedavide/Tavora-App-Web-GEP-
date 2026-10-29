@@ -209,6 +209,10 @@ RD18 — Disattivazione degli account
 
 RD19 — Tracciabilità delle modifiche
 
+![Diagramma del sistema](capolista-uml-use-case.png)
+![Diagramma del sistema](pr-uml-use-case.png)
+![Diagramma del sistema](amministratore-uml-use-case.png)
+
 
 
 
