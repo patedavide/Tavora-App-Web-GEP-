@@ -9,7 +9,7 @@ Competitors: Social Tables, Eventbrite, Google Sheets/Excel e WhatsApp.
 
 Technologie: GitHub, yUML.
 
-##Requisiti funzionali 
+### Requisiti funzionali 
 User Story
 US01 — Login / Registrazione
 Come utente, voglio registrarmi e accedere al sistema tramite login, così da poter utilizzare le funzionalità del sistema.
@@ -143,7 +143,7 @@ Come Amministratore, voglio generare report periodici, così da analizzare l'and
 US44 — Visualizzazione del registro delle modifiche
 Come Amministratore, voglio visualizzare il registro delle modifiche, così da verificare le operazioni eseguite nel sistema e facilitare le attività di controllo.
 
-##Requisiti non funzionali
+### Requisiti non funzionali
 RNF01 — Sicurezza
 
 RNF02 — Protezione delle password
@@ -170,7 +170,7 @@ RNF12 — Isolamento dei dati per ambito organizzativo
 
 RNF13 — Verificabilità delle operazioni
 
-##Requisiti di dominio
+### Requisiti di dominio
 RD01 — Scelta della lista
 
 RD02 — Albero gerarchico della lista
