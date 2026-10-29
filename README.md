@@ -326,32 +326,36 @@ La tabella seguente rappresenta la proposta iniziale dei permessi. Le autorizzaz
 
 Legenda: ✓ = previsto; — = non previsto nella proposta iniziale; Da definire = autorizzazione da stabilire.
 
-Funzionalità	PR	Capolista	Amministratore
-Registrazione e login	✓	✓	✓
-Gestione del profilo personale	✓	✓	✓
-Selezione della discoteca	✓	✓	—
-Selezione della lista	✓	✓	—
-Visualizzazione dell'albero gerarchico	✓	✓	—
-Gestione delle prenotazioni	✓	✓	—
-Modifica dello stato delle prenotazioni	✓	✓	—
-Gestione dei clienti	✓	✓	—
-Consultazione dello storico dei clienti	✓	✓	—
-Gestione dei PR della lista	—	✓	—
-Assegnazione e rimozione dei PR	—	✓	—
-Gestione delle informazioni della lista	—	✓	✓
-Consultazione dei conteggi	✓	✓	✓
-Consultazione degli incassi	✓	✓	✓
-Consultazione degli omaggi	✓	✓	—
-Configurazione delle soglie degli omaggi	—	—	✓
-Gestione delle discoteche	—	—	✓
-Gestione delle liste	—	✓	✓
-Gestione dei tavoli	—	—	✓
-Gestione degli eventi	—	—	✓
-Gestione di utenti, ruoli e permessi	—	—	✓
-Disattivazione degli account	—	—	✓
-Generazione di report periodici	—	—	✓
-Consultazione del registro delle modifiche	—	—	✓
-Nota: la matrice indica le autorizzazioni previste a livello funzionale. I controlli effettivi dovranno essere applicati anche lato server e verificati per ogni discoteca, lista e risorsa interessata.
+
+## Matrice delle funzionalità e dei permessi
+
+| Funzionalità | PR | Capolista | Amministratore |
+|---|:---:|:---:|:---:|
+| Registrazione e login | ✓ | ✓ | ✓ |
+| Gestione del profilo personale | ✓ | ✓ | ✓ |
+| Selezione della discoteca | ✓ | ✓ | — |
+| Selezione della lista | ✓ | ✓ | — |
+| Visualizzazione dell'albero gerarchico | ✓ | ✓ | — |
+| Gestione delle prenotazioni | ✓ | ✓ | — |
+| Modifica dello stato delle prenotazioni | ✓ | ✓ | — |
+| Gestione dei clienti | ✓ | ✓ | — |
+| Consultazione dello storico dei clienti | ✓ | ✓ | — |
+| Gestione dei PR della lista | — | ✓ | — |
+| Assegnazione e rimozione dei PR | — | ✓ | — |
+| Gestione delle informazioni della lista | — | ✓ | ✓ |
+| Consultazione dei conteggi | ✓ | ✓ | ✓ |
+| Consultazione degli incassi | ✓ | ✓ | ✓ |
+| Consultazione degli omaggi | ✓ | ✓ | — |
+| Configurazione delle soglie degli omaggi | — | — | ✓ |
+| Gestione delle discoteche | — | — | ✓ |
+| Gestione delle liste | — | ✓ | ✓ |
+| Gestione dei tavoli | — | — | ✓ |
+| Gestione degli eventi | — | — | ✓ |
+| Gestione di utenti, ruoli e permessi | — | — | ✓ |
+| Disattivazione degli account | — | — | ✓ |
+| Generazione di report periodici | — | — | ✓ |
+| Consultazione del registro delle modifiche | — | — | ✓ |
+
 ## 📐 12. Regole di dominio principali
 
 Le seguenti regole sintetizzano il comportamento atteso del sistema.
@@ -389,19 +393,19 @@ Inserisci le immagini nella cartella principale del repository oppure modifica i
 
 **13.1 Diagramma dei casi d'uso — Capolista**
 
-![Diagramma dei casi d'uso - Capolista](capolista-uml-use-case)
+![Diagramma dei casi d'uso - Capolista](capolista-uml-use-case.png)
 
 Il diagramma rappresenta le operazioni disponibili al Capolista, tra cui la gestione della propria lista, il coordinamento dei PR e la consultazione dei risultati del gruppo.
 
 **13.2 Diagramma dei casi d'uso — PR**
 
-!(Diagramma dei casi d'uso - PR)(pr-uml-use-case)
+![Diagramma dei casi d'uso - PR](pr-uml-use-case.png)
 
 Il diagramma rappresenta le operazioni del PR relative a clienti, prenotazioni, tavoli, eventi, conteggi e informazioni personali.
 
 **13.3 Diagramma dei casi d'uso — Amministratore**
 
-!(Diagramma dei casi d'uso - Amministratore)(amministratore-uml-use-case)
+![Diagramma dei casi d'uso - Amministratore](amministratore-uml-use-case.png)
 
 Il diagramma rappresenta le operazioni amministrative relative agli utenti, ai ruoli, alle discoteche, alle liste, ai tavoli, agli eventi e alla reportistica.
 
