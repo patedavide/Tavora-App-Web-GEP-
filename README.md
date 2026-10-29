@@ -380,18 +380,21 @@ Le liste sono associate alle discoteche.
 Gli utenti possono operare soltanto nelle liste e nelle discoteche per cui risultano autorizzati.
 Il Capolista gestisce esclusivamente la propria area organizzativa.
 L'accesso a più discoteche per un PR dipende dall'abilitazione della relativa funzionalità.
+
 **12.2 Prenotazioni**
 Ogni prenotazione deve essere identificabile e associata alle informazioni necessarie alla sua gestione.
 Le prenotazioni devono poter essere create, modificate ed eliminate dagli utenti autorizzati.
 Lo stato della prenotazione deve rappresentarne la situazione operativa.
 Le note devono poter essere consultate dagli utenti autorizzati.
 Le modifiche ai prezzi devono rispettare i permessi assegnati e le regole economiche applicabili.
+
 **12.3 Clienti e conteggi**
 I clienti devono poter essere ricercati e identificati attraverso una scheda.
 Lo storico deve consentire di consultare le attività precedenti associate al cliente.
 Il sistema deve permettere di registrare le persone portate da ciascun cliente.
 I conteggi devono essere consultabili per periodo e per ambito organizzativo.
 L'attribuzione dei clienti ai PR deve seguire regole coerenti e verificabili.
+
 **12.4 Incassi e omaggi**
 I conteggi economici devono rispettare le regole di attribuzione definite per le prenotazioni e i clienti.
 Le soglie degli omaggi devono poter essere configurate per discoteca.
@@ -430,14 +433,14 @@ La sicurezza è un requisito trasversale dell'applicazione.
 
 La progettazione dovrà considerare almeno i seguenti aspetti:
 
-Autenticazione: verifica dell'identità dell'utente prima di consentire l'accesso alle funzionalità protette.
-Protezione delle password: utilizzo di algoritmi di hashing dedicati alle password e di procedure sicure per il recupero dell'accesso.
-Autorizzazione: verifica dei ruoli e dei permessi per ogni operazione sensibile.
-Isolamento dei dati: controllo dell'accesso ai dati appartenenti alle diverse discoteche e liste.
-Privacy: trattamento dei dati personali secondo le finalità autorizzate e le normative applicabili.
-Integrità: validazione degli input e controllo della coerenza delle relazioni tra le entità.
-Tracciabilità: registrazione delle modifiche rilevanti, includendo quando opportuno autore, data, operazione e risorsa coinvolta.
-Gestione degli account: possibilità di disattivare gli account non più autorizzati.
+* Autenticazione: verifica dell'identità dell'utente prima di consentire l'accesso alle funzionalità protette.
+* Protezione delle password: utilizzo di algoritmi di hashing dedicati alle password e di procedure sicure per il recupero dell'accesso.
+* Autorizzazione: verifica dei ruoli e dei permessi per ogni operazione sensibile.
+* Isolamento dei dati: controllo dell'accesso ai dati appartenenti alle diverse discoteche e liste.
+* Privacy: trattamento dei dati personali secondo le finalità autorizzate e le normative applicabili.
+* Integrità: validazione degli input e controllo della coerenza delle relazioni tra le entità.
+* Tracciabilità: registrazione delle modifiche rilevanti, includendo quando opportuno autore, data, operazione e risorsa coinvolta.
+* Gestione degli account: possibilità di disattivare gli account non più autorizzati.
 
 I controlli di sicurezza dovranno essere applicati anche lato server, evitando di affidare la protezione dei dati esclusivamente all'interfaccia utente.
 
@@ -452,18 +455,21 @@ Selezione della discoteca e della lista.
 Gestione delle prenotazioni.
 Gestione dei clienti e delle relative schede.
 Configurazione iniziale dei tavoli e degli eventi.
+
 **Fase 2 — Organizzazione delle liste**
 Visualizzazione dell'albero gerarchico.
 Assegnazione e rimozione dei PR.
 Gestione delle informazioni e delle note delle liste.
 Gestione delle prenotazioni del gruppo.
 Consultazione dei clienti della propria lista.
+
 **Fase 3 — Conteggi e risultati economici**
 Conteggio dei clienti portati.
 Consultazione dei conteggi per periodo.
 Calcolo e consultazione degli incassi secondo le regole definite.
 Configurazione e verifica delle soglie degli omaggi.
 Consultazione dei risultati aggregati della lista.
+
 **Fase 4 — Amministrazione e controllo**
 Gestione completa di utenti e discoteche.
 Gestione amministrativa di liste, tavoli ed eventi.
