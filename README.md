@@ -1,13 +1,17 @@
 # Tavora-App-Web-GEP-
 Web app per la gestione e l’organizzazione delle serate in discoteca, pensata per ogni PR, che consente di gestire tavoli, clienti, prezzi, prenotazioni e altri dati relativi alla serata.
 
-Problema che vuole risolvere: Difficoltà nella gestione e nell’organizzazione delle serate da parte dei PR, dovute all’utilizzo di informazioni sparse tra chat, fogli e app diverse, con il rischio di perdere dati relativi a clienti, tavoli, prenotazioni e prezzi.
+### Problema che vuole risolvere:
+Difficoltà nella gestione e nell’organizzazione delle serate da parte dei PR, dovute all’utilizzo di informazioni sparse tra chat, fogli e app diverse, con il rischio di perdere dati relativi a clienti, tavoli, prenotazioni e prezzi.
 
-Target: L’applicazione si rivolge ai PR e collaboratori del settore nightlife che necessitano di uno strumento pratico per gestire clienti, prenotazioni, tavoli e vendite. La web app mira a ottimizzare l’organizzazione delle serate, migliorare la collaborazione tra i membri dello staff e rendere più efficiente il lavoro dei PR, sia prima sia durante gli eventi.
+### Target: 
+L’applicazione si rivolge ai PR e collaboratori del settore nightlife che necessitano di uno strumento pratico per gestire clienti, prenotazioni, tavoli e vendite. La web app mira a ottimizzare l’organizzazione delle serate, migliorare la collaborazione tra i membri dello staff e rendere più efficiente il lavoro dei PR, sia prima sia durante gli eventi.
 
-Competitors: Social Tables, Eventbrite, Google Sheets/Excel e WhatsApp.
+### Competitors: 
+Social Tables, Eventbrite, Google Sheets/Excel e WhatsApp.
 
-Technologie: GitHub, yUML.
+### Technologie:
+GitHub, yUML.
 
 ### Requisiti funzionali 
 User Story
