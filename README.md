@@ -106,12 +106,14 @@ Le funzionalità sono suddivise in undici aree principali.
 * Associazione di ruoli e permessi agli account.
 * Visualizzazione degli utenti registrati.
 * Disattivazione degli account utente.
+   
 **6.2 Gestione delle discoteche**
 * Visualizzazione e selezione delle discoteche disponibili.
 * Creazione e modifica delle informazioni di una discoteca.
 * Gestione amministrativa dei locali.
 * Associazione delle liste alle discoteche.
 * Possibilità per un PR di lavorare per più discoteche, quando abilitata.
+* 
 **6.3 Gestione delle liste**
 * Selezione della lista di lavoro.
 * Creazione e gestione delle liste.
@@ -121,6 +123,7 @@ Le funzionalità sono suddivise in undici aree principali.
 * Assegnazione e rimozione dei PR.
 * Consultazione dei PR appartenenti alla lista.
 * Inserimento e consultazione delle note della lista.
+* 
 **6.4 Gestione delle prenotazioni**
 * Creazione, modifica, visualizzazione ed eliminazione delle prenotazioni.
 * Associazione delle prenotazioni ai clienti, ai tavoli e agli eventi pertinenti.
@@ -128,6 +131,7 @@ Le funzionalità sono suddivise in undici aree principali.
 * Inserimento e consultazione delle note.
 * Modifica del prezzo associato al pagante.
 * Gestione delle prenotazioni della propria lista da parte del Capolista.
+* 
 **6.5 Gestione dei clienti**
 * Visualizzazione della lista dei clienti.
 * Ricerca rapida dei clienti.
@@ -137,36 +141,42 @@ Le funzionalità sono suddivise in undici aree principali.
 * Inserimento e visualizzazione delle note.
 * Registrazione del numero e dei nomi delle persone portate da ciascun cliente.
 * Consultazione dei clienti associati alla propria lista.
+* 
 **6.6 Gestione dei tavoli**
 * Creazione e configurazione dei tavoli.
 * Visualizzazione delle informazioni dei tavoli.
 * Modifica dei dati e delle caratteristiche.
 * Associazione dei tavoli alle discoteche.
 *Gestione delle informazioni necessarie alla prenotazione.
+
 **6.7 Programmazione ed eventi**
 * Visualizzazione della programmazione settimanale.
 * Consultazione degli eventi programmati.
 * Creazione di nuovi eventi.
 * Modifica delle informazioni degli eventi.
 * Associazione degli eventi alle rispettive discoteche.
+* 
 **6.8 Gestione degli omaggi**
 * Consultazione degli omaggi disponibili.
 * Configurazione delle soglie per ogni discoteca.
 * Definizione delle condizioni per il riconoscimento dei benefici.
 * Sblocco degli omaggi al raggiungimento delle soglie previste.
 * Visualizzazione dei benefici ottenuti dai PR.
+* 
 **6.9 Conteggi e statistiche**
 * Conteggio dei clienti portati da ogni PR.
 * Consultazione dei conteggi per periodo.
 * Visualizzazione dei conteggi complessivi della propria lista.
 * Monitoraggio dell'attività dei PR.
 * Analisi dei risultati dei gruppi.
+* 
 **6.10 Gestione degli incassi**
 * Consultazione dell'incasso generato dal PR.
 * Monitoraggio dell'incasso generato per la discoteca.
 * Consultazione dell'incasso spettante al PR, secondo le regole definite.
 * Consultazione degli incassi della propria lista.
 * Analisi dei risultati economici delle attività.
+* 
 **6.11 Gestione amministrativa e reportistica**
 * Gestione di utenti, ruoli e permessi.
 * Gestione di discoteche e liste.
